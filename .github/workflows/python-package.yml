@@ -33,7 +33,7 @@ jobs:
       run: find . -name 'aula02.py' -print -exec pylint {} \;
     - name: Analyse code
       run: |
-              for file in aula02.py; do pylint "$file" --fail-under=7.0; done
+              for file in */aula02.py; do pylint "$file" --fail-under=7.0; done
     - name: Test with pytest
       run: |
         pytest
