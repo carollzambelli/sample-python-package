@@ -8,6 +8,5 @@ setup(
     author='Carolina Kamada',
     author_email='carolina.kamada@faculdadeimpacta.com.br',
     packages=['my_package'],
-    include_package_data=True,
-    install_requires=["scikit-learn==1.2.1"]
+    include_package_data=True
 )
