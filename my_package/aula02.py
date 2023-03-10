@@ -1,4 +1,4 @@
-"""Script para a aula 02 do curso de dataops"""
+"""Este script tem como finalidade baixar a base de dados iris realizar alguns tratamentos e salvar a base em csv"""
 import pandas as pd
 from sklearn.datasets import load_iris
 
@@ -49,7 +49,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    #import requests
-    #data = requests.get("https://www.educative.io/")
-    #print(data.status_code)
 
