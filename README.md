@@ -23,6 +23,11 @@ pip freeze > requirements.txt
 
 👍 Utilize uma ferramenta de workflow para realizar o build & deploy do seu pacote. Neste repositório o workflow esta configurando apenas para o build, com code review e testes.
 
+👍 Para instalação, vá até a raiz do projeto
+```
+pip install -e .
+```
+
 <br>
 
 ## Estrutura do projeto
